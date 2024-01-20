@@ -1,5 +1,5 @@
 import Canvas from './canvas'
-import Costomizer from './pages/Costomizer'
+import Customizer from './pages/Customizer'
 import Home from './pages/Home'
 
 export default function App() {
@@ -7,7 +7,7 @@ export default function App() {
     <main className="transition-all ease-in app">
       <Home />
       <Canvas />
-      <Costomizer />
+      <Customizer />
     </main>
   )
 }
