@@ -1,3 +1,13 @@
+import Canvas from './canvas'
+import Costomizer from './pages/Costomizer'
+import Home from './pages/Home'
+
 export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>
+  return (
+    <main className="transition-all ease-in app">
+      <Home />
+      <Canvas />
+      <Costomizer />
+    </main>
+  )
 }
